@@ -84,7 +84,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   background: #F1F2F4;
-  border: 0px solid #000000; padding: 10px;">
+  border: 0px solid #000000; padding: 10px;
 }
 
 #header.header-scrolled {
@@ -1267,7 +1267,7 @@ section {
 }
 
 .pricing .btn-wrap {
-  padding: 15px 0; /* Reducir el padding superior e inferior del contenedor de botones */
+  padding: 15px 10; /* Reducir el padding superior e inferior del contenedor de botones */
 }
 
 .pricing .btn-buy {
@@ -1277,7 +1277,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 25px; /* Reducir el padding de los botones */
+  padding: 8px 26px; /* Reducir el padding de los botones */
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
@@ -1456,7 +1456,6 @@ section {
     /* Definir el gradiente para el borde */
     border-image: linear-gradient(to bottom right, #ffd587, #fa2ca4) 1;
 }
-}
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1515,7 +1514,6 @@ section {
   border: 2px solid;
     /* Definir el gradiente para el borde */
     border-image: linear-gradient(to bottom right, #ffd587, #fa2ca4) 1;
-}
 }
 
 .contact .php-email-form input {
